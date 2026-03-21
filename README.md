@@ -1,5 +1,9 @@
 # Thielon Agent Wallet
 
+[![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github)](https://github.com/thielon-apps/thielon-agent-wallet)
+[![License](https://img.shields.io/github/license/thielon-apps/thielon-agent-wallet)](https://github.com/thielon-apps/thielon-agent-wallet/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/thielon-apps/thielon-agent-wallet)](https://github.com/thielon-apps/thielon-agent-wallet/commits/main)
+
 DID-based credential storage and presentation for AI agents. Store verifiable credentials, selectively disclose, prove attributes without revealing all data.
 
 ## Features
