@@ -1,8 +1,8 @@
-# Thielon Agent Wallet
+# Agent Wallet
 
-[![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github)](https://github.com/thielon-apps/thielon-agent-wallet)
-[![License](https://img.shields.io/github/license/thielon-apps/thielon-agent-wallet)](https://github.com/thielon-apps/thielon-agent-wallet/blob/main/LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/thielon-apps/thielon-agent-wallet)](https://github.com/thielon-apps/thielon-agent-wallet/commits/main)
+[![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github)](https://github.com/RanaPriyansh/agent-wallet)
+[![License](https://img.shields.io/github/license/RanaPriyansh/agent-wallet)](https://github.com/RanaPriyansh/agent-wallet/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/RanaPriyansh/agent-wallet)](https://github.com/RanaPriyansh/agent-wallet/commits/main)
 
 DID-based credential storage and presentation for AI agents. Store verifiable credentials, selectively disclose, prove attributes without revealing all data.
 
@@ -17,7 +17,7 @@ DID-based credential storage and presentation for AI agents. Store verifiable cr
 ## Quick Start
 
 ```python
-from thielon_wallet import Wallet
+from agent_wallet import Wallet
 
 # Create wallet
 wallet = Wallet.create("agent-hermes")
@@ -37,7 +37,7 @@ proof = wallet.create_presentation(["reputationScore"], range={"min": 0.8})
 ## Install
 
 ```bash
-pip install thielon-agent-wallet
+pip install agent-wallet
 ```
 
 ## Why
@@ -51,3 +51,7 @@ Agents need identity and reputation. This wallet provides:
 ## License
 
 MIT
+
+---
+
+Built with ❤️ by Thielon
